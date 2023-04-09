@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "llm-playground"
+  site-url: "https://harishmohanraj.github.io/llm-playground"
+  description: "This is a repository for experimenting with LLM's"
+  repo-branch: main
+  repo-url: "https://github.com/harishmohanraj/llm-playground"
