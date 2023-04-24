@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "01_Chains_Tutorial.html",
+    "href": "01_Chains_Tutorial.html",
+    "title": "llm-playground",
+    "section": "",
+    "text": "source\n\n\n\n llm_chain (user_input)\n\n\nprint(llm_chain(\"colorful cars\"))\n\n\n\nSpectrum Autos."
+  },
+  {
+    "objectID": "01_Chains_Tutorial.html#you-can-use-a-chat-model-in-an-llmchain-as-well",
+    "href": "01_Chains_Tutorial.html#you-can-use-a-chat-model-in-an-llmchain-as-well",
+    "title": "llm-playground",
+    "section": "You can use a chat model in an LLMChain as well:",
+    "text": "You can use a chat model in an LLMChain as well:\n\nsource\n\nchat_llm_chain\n\n chat_llm_chain (user_input)\n\n\nprint(chat_llm_chain(\"flying cars\"))\n\nAeroAuto.\n\n\n\n\nCombine chains with the SequentialChain\n\nExecute their links in a predefined order\nWe will use the SimpleSequentialChain\nSimplest type of a sequential chain, where each step has a single input/output, and the output of one step is the input to the next.\nBelow we will:\n  1) Create a company name for a product\n  2) Create a catchphrase for the product\n\n\nsource\n\n\nsimple_sequential_chain\n\n simple_sequential_chain (text:str)\n\n\nprint(simple_sequential_chain(\"flying ships\"))\n\n\n\n> Entering new SimpleSequentialChain chain...\nSkyVoyage\n\"Expand your horizons.\"\n\n> Finished chain.\n\"Expand your horizons.\""
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "llm-playground",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "llm-playground",
+    "section": "Install",
+    "text": "Install\npip install llm_playground"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "llm-playground",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "00_Tutorial.html",
+    "href": "00_Tutorial.html",
+    "title": "llm-playground",
+    "section": "",
+    "text": "source\n\n\n\n get_result (text:str)\n\n\nprint(get_result(text = \"What would be a good company name for a company that makes ugly toys?\"))\n\n\n\n\n\nprint(prompt.format(product=\"colorful socks\"))\n\nWhat is a good name for a company that makes colorful socks?\n\n\n\n\n\nsource\n\n\n\n\n\n llm_chain (user_input)\n\n\nprint(llm_chain(\"colorful cars\"))\n\n\n\nRainbow Autos."
+  },
+  {
+    "objectID": "03_FastAPI_Streaming_Example.html",
+    "href": "03_FastAPI_Streaming_Example.html",
+    "title": "llm-playground",
+    "section": "",
+    "text": "source\n\nconversation_chain_dependency\n\n conversation_chain_dependency ()\n\n\nsource\n\n\nRequest\n\n Request (query:str)\n\nCreate a new model by parsing and validating input data from keyword arguments.\nRaises ValidationError if the input data cannot be parsed to form a valid model.\n\nsource\n\n\nchat\n\n chat (request:__main__.Request, chain:langchain.chains.conversation.base.\n       ConversationChain=Depends(dependency))"
+  }
+]
